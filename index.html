@@ -1,0 +1,207 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProject</title>
+    <style>
+        header{
+            background: url("up.jpg");
+            background-size: cover;
+            background-position: center; /* not background-position-x*/
+            min-height: 1000px;
+        }
+        /* to resize the image for responsiveness*/
+        @media screen and (max-width: 670px);{  
+        }
+        header{min-height: 500px;
+        }
+        .brand-logo{
+            max-inline-size: 65px;
+        }
+        
+    </style>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href= "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="transparent">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <img src= "ted logo.jpg"  alt = "logo" class="brand-logo">
+                        <a href="#" class="sidenav-trigger" data-target="links"><i class="material-icons">menu</i></a>
+
+                        <ul class="hide-on-med-and-down right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#talks">RECENT TEDs</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#" class=" blue waves-effect waves-light btn"> Sign up</a></li> 
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="sidenav" id="links">
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#talks">RECENT TEDs</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+        </div>
+    </header>
+        
+        <div class="container" id="talks">
+            <u ><h5 class="red-text center">RECENT TEDs</u></h5>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="video-container">
+                            <video class="responsive-video" controls></video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MY5SatbZMAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Ted by Mariana</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">View more</a>
+                            <a href="#">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="video-container">
+                            <video class="responsive-video" controls></video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MY5SatbZMAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Ted by Mariana</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">View more</a>
+                            <a href="#">Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                        <div class="video-container">
+                            <video class="responsive-video" controls> </video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MY5SatbZMAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Ted by Mariana</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">View more</a>
+                            <a href="#">Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="crowd2.png" alt="large audience" class="responsive-img"> 
+            </div>
+        </div>
+
+        <section class="container" id="photo">
+            <div class="row" id="about">
+                <div class="col s12 m6 l6">
+                     <h3 class="red-text"> About TED Talks</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                     <a href="#" class="btn red waves-effect waves-light">Know more</a>
+                </div>
+                <div class="col s12 m6 l6">
+                    <img src="mid-tedX.jpg" alt="ted-audience" class="responsive-img materialboxed">
+                </div>
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="crowd2.png" alt="large audience" class="responsive-img"> 
+            </div>
+        </div>
+        <section class="container" id="contacts">
+            <div class="row">
+                <div class="col s12 m5 l5">
+                    <h3 class="red-text text-darken-4">Contact us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     </p>
+                </div>
+                <div class="col s12 m5 l5 offset-l2">
+                    <form action="">
+                        <div class="input field">
+                            <input type="text" id="name">
+                            <label for="name prefix">Full Name</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                             <input type="email" id="email">
+                             <label for="email">Email</label> 
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">message</i>
+                            <textarea class="materialize-textarea" id="message"></textarea>
+                            <label for="message">Comments</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="date" class="datepicker">
+                            <label for="date">Book an appointment</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer black">
+            <div class="container ">
+                <div class="row">
+                    <div class="col s4 m4 l4">
+                        <h6 class="centre">About me<h6>
+                        <p class="lil">Beauty is the ascription of a property or characteristic to a person, object, animal, place or idea that provides a perceptual experience of pleasure or satisfaction.</p>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <ul>
+                            <li class="title">Follow us</li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><i class="material-icons prefix">email</i><a href="#">arioluwaaribisala@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s4 m4 l4">
+                        <p><a href="#" text-decorator="underline">Private Policy</a> </p> 
+                    </div>
+            </div> 
+            <div class="footer-copyright">
+                <div class="container center-align italics">&copy; 2020 Designed by Ari for ariiberries media</div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax') .parallax();
+            $('.datepicker').datepicker();
+        })
+    </script>   
+</body>
+</html>
